@@ -1,0 +1,118 @@
+<!-- Page 2: about.html (Text right of image, responsive layout) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me - My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <style>
+    body {
+      padding-top: 60px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f8f9fa;
+    }
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 220px;
+      background-color: #1a1a2e;
+      color: white;
+      padding-top: 60px;
+      overflow-y: auto;
+    }
+    .sidebar a {
+      display: block;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+    }
+    .sidebar a:hover {
+      background-color: #16213e;
+    }
+    .content {
+      margin-left: 240px;
+      padding: 40px 20px;
+    }
+    header {
+      position: fixed;
+      z-index: 1030;
+      background-color: #0f3460;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      top: 0;
+      left: 220px;
+      width: calc(100% - 220px);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .about-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      background-color: #fff;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      margin-top: 80px;
+      align-items: center;
+      justify-content: start;
+    }
+    .about-section img {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 10px;
+      flex-shrink: 0;
+    }
+    .bio {
+      flex: 1;
+      min-width: 250px;
+    }
+    .bio h2 {
+      font-weight: 600;
+      margin-bottom: 20px;
+      color: #0f3460;
+    }
+    .bio p {
+      margin-bottom: 1rem;
+      line-height: 1.6;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+<div class="sidebar d-flex flex-column align-items-center">
+  <h4 class="text-center py-3">My Portfolio</h4>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="resume.html">Resume</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="contact.html">Contact</a>
+  <a href="blog.html">Blog</a>
+  <a href="skills.html">Skills</a>
+  <a href="services.html">Services</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="testimonials.html">Testimonials</a>
+  <a href="achievements.html">Achievements</a>
+  <a href="faq.html">Faq</a>
+</div>
+
+<header>
+  <h2>About Me</h2>
+</header>
+
+<div class="content">
+  <section class="about-section">
+    <img src="https://static.wikia.nocookie.net/brainrotnew/images/d/df/Anomali_tung_tung_tung.png/revision/latest?cb=20250430174143" alt="About Image" />
+    <div class="bio">
+      <h2>Hello! I'm Tung tung tung sahur</h2>
+      <p>I’m a passionate web developer who thrives on turning ideas into reality through clean, responsive, and user-centered design. I believe in lifelong learning and continuous growth in both coding and creativity.</p>
+      <p>My experience spans both front-end and back-end development, including work with JavaScript frameworks, PHP/Laravel, and modern UI design systems. I love building tools that empower users and solve real-world problems.</p>
+      <p>Beyond coding, I enjoy photography, reading about digital culture, and exploring new ways to use technology for good.</p>
+    </div>
+  </section>
+</div>
+</body>
+</html>

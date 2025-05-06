@@ -1,0 +1,90 @@
+<!-- Page 8: services.html (Detailed service offerings with icons) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { padding-top: 60px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f8f9fa; }
+    .sidebar { position: fixed; top: 0; left: 0; height: 100%; width: 220px; background-color: #1a1a2e; color: white; padding-top: 60px; overflow-y: auto; }
+    .sidebar a { display: block; color: white; padding: 10px 20px; text-decoration: none; }
+    .sidebar a:hover { background-color: #16213e; }
+    .content { margin-left: 240px; padding: 40px 20px; }
+    header { position: fixed; z-index: 1030; background-color: #0f3460; color: white; text-align: center; padding: 1rem; top: 0; left: 220px; width: calc(100% - 220px); box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+    .service-box { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.05); text-align: center; }
+    .service-box i { font-size: 2rem; color: #0f3460; margin-bottom: 15px; }
+    .service-title { font-size: 1.25rem; font-weight: 600; margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <div class="sidebar d-flex flex-column align-items-center">
+    <h4 class="text-center py-3">My Portfolio</h4>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="resume.html">Resume</a>
+    <a href="portfolio.html">Portfolio</a>
+    <a href="contact.html">Contact</a>
+    <a href="blog.html">Blog</a>
+    <a href="skills.html">Skills</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="testimonials.html">Testimonials</a>
+    <a href="achievements.html">Achievements</a>
+    <a href="faq.html">Faq</a>
+  </div>
+<header>
+  <h2>Services</h2>
+</header>
+<div class="content">
+  <div class="container">
+    <div class="row g-4 mt-5">
+      <div class="col-md-4">
+        <div class="service-box">
+          <i class="bi bi-code-slash"></i>
+          <div class="service-title">Web Development</div>
+          <p>Custom websites and apps built using modern tech stacks like React, Laravel, or WordPress.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-box">
+          <i class="bi bi-brush"></i>
+          <div class="service-title">UI/UX Design</div>
+          <p>Clean, intuitive interfaces designed with a focus on accessibility and responsiveness.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-box">
+          <i class="bi bi-search"></i>
+          <div class="service-title">SEO Optimization</div>
+          <p>Improve your search rankings with on-page SEO techniques and fast-loading designs.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-box">
+          <i class="bi bi-gear"></i>
+          <div class="service-title">Website Maintenance</div>
+          <p>Keep your site secure and up-to-date with regular backups, updates, and improvements.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-box">
+          <i class="bi bi-cart"></i>
+          <div class="service-title">E-commerce Setup</div>
+          <p>Fully functional online stores with product management, secure checkout, and more.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="service-box">
+          <i class="bi bi-phone"></i>
+          <div class="service-title">Responsive Design</div>
+          <p>Ensure your website looks and works great on all devices, big or small.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.js"></script>
+</body>
+</html>
